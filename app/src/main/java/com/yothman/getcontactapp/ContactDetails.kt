@@ -16,6 +16,7 @@ class ContactDetails :AppCompatActivity() {
 
         binding.userNameTv.text = contact?.Name
         binding.userNumberTv.text = contact?.Phone
+        binding.userDescrptionTv.text = contact?.Descrption
         setContentView(binding.root)
 
     }
